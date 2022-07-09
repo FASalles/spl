@@ -1,0 +1,18 @@
+.bg {
+    background-image: url("../img/palacio2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 14em;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #0c63e4;
+}
+a:hover {
+    text-decoration: underline;
+    color: #0c63e4;
+    font-weight: bold;
+}

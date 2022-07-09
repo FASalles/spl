@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado da consulta</title>
+</head>
+<body>
+
+<?php include("../spl/views/header.php") ?>
+
+    <form action="sql-html.php" method="post">
+        <div class="form-group">
+            <label for="hostname">Hostname</label>
+            <input type="text" class="form-control" id="hostname" name="hostname">
+
+            <input type="submit" value="Consultar">
+        </div>
+    </form>
+
+</body>
+</html>
